@@ -37,11 +37,11 @@
 
 		<div id="nav" class="clearfix">
 			<ul>
-				<li><a class="current" href="layout">Default layout</a></li>
-				<li><a href="2-col-left">2 columns (left)</a></li>
-				<li><a href="2-col-right">2 columns (right)</a></li>
-				<li><a href="3-cols">3 columns</a></li>
-				<li><a href="full-width">Full width</a></li>
+				<li><a class="current" href="layout">Home</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="projects">Projects</a></li>
+				<li><a href="races">Races</a></li>
+				<li><a href="contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>
