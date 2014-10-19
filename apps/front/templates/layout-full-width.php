@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+		<?php include_http_metas() ?>
+    	<?php include_metas() ?>
+    	<?php include_title() ?>
+    	<link rel="shortcut icon" href="/favicon.ico" />
+    	<?php include_stylesheets() ?>
+    	<?php include_javascripts() ?>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="Your description goes here" />
 	<meta name="keywords" content="your,keywords,goes,here" />
 	<meta name="author" content="Your Name" />
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" type="text/css" media="all" href="inland-wood.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/inland-wood.css" />
 	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 	<title>The Inland Wood CSS template</title>
