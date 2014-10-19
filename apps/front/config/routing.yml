@@ -1,0 +1,33 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+#homepage:
+#  url:   /
+#  param: { module: default, action: index }
+
+
+homepage:
+  url: /
+  param: { module: main, action:index }
+
+homepage2:
+  url: /index
+  param: { module: main, action:index }
+
+2colleft:
+  url: /2-col-left
+  param: { module: main, action:2colsleft }
+
+projects:
+  url: /projects
+  param: { module: main, action:projects }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
