@@ -24,22 +24,22 @@ class mainActions extends sfActions
 
   public function executeAbout(){
 
-    $this->setLayout('layout-2col-left');
+    //$this->setLayout('layout-2col-left');
   }
 
   public function executeProjects(){
 
-    $this->setLayout('layout-2col-left');
+    //$this->setLayout('layout-2col-left');
   }
 
   public function executeRaces(){
 
-    $this->setLayout('layout-2col-left');
+    //$this->setLayout('layout-2col-left');
   }
 
   public function executeContact(){
 
-    $this->setLayout('layout-2col-left');
+    //$this->setLayout('layout-2col-left');
   }
 
 
