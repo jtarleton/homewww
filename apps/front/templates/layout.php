@@ -32,7 +32,7 @@
 
 	<div id="header" class="clearfix shadow">
 		<div id="sitetitle" class="clearfix">
-			<h1><a href="index">James's Home Page</a></h1>
+			<h1><a href="/">James's Home Page</a></h1>
 		</div>
 
 		<div id="nav" class="clearfix">
