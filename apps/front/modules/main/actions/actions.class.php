@@ -22,7 +22,10 @@ class mainActions extends sfActions
   public function execute2colsleft(sfWebRequest $request){
   }
 
-  public function executeProjects(){}
+  public function executeProjects(){
+
+    $this->setLayout('layout-2col-left');
+  }
 
 
 }
