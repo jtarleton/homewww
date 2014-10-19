@@ -23,6 +23,19 @@ projects:
   url: /projects
   param: { module: main, action:projects }
 
+about:
+  url: /about
+  param: { module: main, action:about }
+
+races:
+  url: /races
+  param: { module: main, action:races }
+
+contact:
+  url: /contact
+  param: { module: main, action:contact }
+
+
 # generic rules
 # please, remove them by adding more specific rules
 default_index:
