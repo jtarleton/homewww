@@ -7,14 +7,22 @@
     	<link rel="shortcut icon" href="/favicon.ico" />
     	<?php include_stylesheets() ?>
     	<?php include_javascripts() ?>
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.3/css/jquery.dataTables.css">
 
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.3/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="Your description goes here" />
 	<meta name="keywords" content="your,keywords,goes,here" />
 	<meta name="author" content="Your Name" />
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" media="all" href="css/inland-wood.css" />
-	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script> -->
 	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 	<title>James's Home Page</title>
 </head>
