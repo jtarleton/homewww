@@ -67,11 +67,14 @@ $(document).ready(function() {
 	<div id="content" class="clearfix shadow">
 
 
-		<?php echo $sf_content ?>
+		
 
 	</div>
 
 	<div id="extended" class="clearfix shadow">
+
+<?php echo $sf_content ?>
+<!-- 
 		<div id="trio1">
 			<div class="inner">
 				<h3>Standards-compliant code</h3>
@@ -91,7 +94,7 @@ $(document).ready(function() {
 				<h3>Multiple layout options</h3>
 				<p>Single-column, two columns with left or right sidebars, three columns - or a combination of any two layout options.</p>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	<div id="footer" class="shadow">
