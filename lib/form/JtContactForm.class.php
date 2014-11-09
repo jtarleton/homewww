@@ -10,7 +10,7 @@ class JtContactForm extends BaseForm
     ));
     
     $this->setValidators(array(
-      'email' => new sfValidatorEmail('required' => true)),
+      'email' => new sfValidatorEmail(array('required'=>true)),
        'msg' => new sfValidatorString(array('max_length' => 255, 'required' => true))
     ));
     
