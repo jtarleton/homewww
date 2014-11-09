@@ -30,8 +30,8 @@ class mainActions extends sfActions
   public function executeCaptcha(){ 
     //die('here');
     $helpers = array('Captcha');
-    sfLoader::loadHelpers($helpers);
-    //$c = doCaptcha();
+    sfProjectConfiguration::getActive()->loadHelpers($helpers);
+    $c = doCaptcha();
     exit('done');
   }
 
