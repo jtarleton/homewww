@@ -1,3 +1,7 @@
+<h1 >
+About
+</h1>
+
 	<p>Hello, and welcome to my personal home page.</p>
 					<p>I am a PHP developer based in New York City.  My professional background includes symfony, Wordpress, and Drupal.</p>
 
