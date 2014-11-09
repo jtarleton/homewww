@@ -1,4 +1,6 @@
-
+<h1 >
+Races
+</h1>
 
 <table id="example" class="display" width="100%" cellspacing="0">
         <thead>
@@ -6,7 +8,7 @@
                 <th>Date</th>
                 <th>Race</th>
                 <th>Event</th>
-                <th>Position</th>
+                <th>Overall</th>
                 <th>Time</th>
                 <th>Location</th>
             </tr>
