@@ -66,13 +66,13 @@ class mainActions extends sfActions
         // In case any of our lines are larger than 70 characters, we should use wordwrap()
         $message = wordwrap($message, 70, "\r\n");
 
-        $headers = 'From: nobody@jamestarleton.com' . "\r\n" .
+        $headers = 'From: www-data@sapphire.crystalbit.com' . "\r\n" .
         'Reply-To: '.$this->form['email']->getValue() . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
 
         // Send
-        $ok = mail('jamestarleton@icloud.com', 'Contact Form Submission', $message);
+        $ok = mail('jamestarleton@icloud.com', 'Contact Form Submission', $message, $headers);
 
         die(var_dump($ok));
       }
