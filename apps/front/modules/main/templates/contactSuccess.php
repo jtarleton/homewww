@@ -1,5 +1,5 @@
 <style type="text/css">
-#msg {
+textarea#msg {
 	width:683; height:100px;
 }
 </style>
