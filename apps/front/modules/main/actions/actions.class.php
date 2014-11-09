@@ -39,6 +39,18 @@ class mainActions extends sfActions
 
   public function executeContact(){
 
+    $this->form = new JtContactForm;
+    if(!empty($_POST))
+    {
+      $this->form->bind($_POST);
+      
+      if($this->form->isValid())
+      {
+        var_dump($this->form->getValues());    
+        exit;
+      }
+    }
+
     //$this->setLayout('layout-2col-left');
   }
 
