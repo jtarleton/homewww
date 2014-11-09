@@ -42,8 +42,8 @@ class mainActions extends sfActions
     $this->form = new JtContactForm;
     if($request->isMethod('post'))
     {
-      $this->form->bind( $request->getParameter('email') );
-       $this->form->bind( $request->getParameter('msg') );
+      $this->form->bind( $request->getPostParameters());
+      
      
       if($this->form->isValid())
       {
