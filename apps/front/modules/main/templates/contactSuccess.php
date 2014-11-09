@@ -1,3 +1,8 @@
+<style type="text/css">
+#msg {
+	width:683; height:100px;
+}
+</style>
 <h1>Contact Me</h1>
 <form action="http://www.jamestarleton.com/contact" method="post">
   <table  width="100%" cellspacing="20"><tbody>
