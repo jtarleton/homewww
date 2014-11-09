@@ -27,7 +27,8 @@ class mainActions extends sfActions
     //$this->setLayout('layout-2col-left');
   }
 
-  public function executeCaptcha(){ die('here');
+  public function executeCaptcha(){ 
+    //die('here');
     $helpers = array('Captcha');
     sfLoader::loadHelpers($helpers);
     $c = doCaptcha();
