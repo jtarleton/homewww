@@ -40,6 +40,8 @@ class mainActions extends sfActions
   public function executeContact(sfWebRequest $request){
 
     $this->form = new JtContactForm;
+    $this->feedback = null;
+    
     if($request->isMethod('post'))
     {
       $this->form->bind( $request->getPostParameters());
@@ -74,7 +76,8 @@ class mainActions extends sfActions
         // Send
         $ok = mail('jamestarleton@icloud.com', 'Contact Form Submission', $message, $headers);
 
-        echo ($ok) ? '<p class="success">Your message has been sent.</p>' : '<p class="error">There was a problem sending your message.</p>';
+        $this->feedback = ($ok) ? '<p class="success">Your message has been sent.</p>' : '<p class="error">There was a problem sending your message.</p>';
+        
       }
     }
 

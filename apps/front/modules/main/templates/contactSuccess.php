@@ -36,6 +36,9 @@ color:green;
 	color:red;
 }
 </style>
+<?php if(isset($feedback)): ?>
+<?php echo $feedback; ?>
+<?php else: ?>
 <h1>Contact Me</h1>
 <form action="http://www.jamestarleton.com/contact" method="post">
   <table  width="100%" cellspacing="20"><tbody>
@@ -47,3 +50,4 @@ color:green;
     </tr>
   </tbody></table>
 </form>
+<?php endif; ?>
