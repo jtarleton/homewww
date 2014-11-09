@@ -65,12 +65,11 @@ $message = 'Email: '
 
 // In case any of our lines are larger than 70 characters, we should use wordwrap()
 $message = wordwrap($message, 70, "\r\n");
-
+die(var_dump($message));
 // Send
-mail('jamestarleton@icloud.com', 'Contact Form Submission', $message);
+//$ok = mail('jamestarleton@icloud.com', 'Contact Form Submission', $message);
 
 
-        exit;
       }
     }
 
