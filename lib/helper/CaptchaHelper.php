@@ -10,10 +10,10 @@
 function doCaptcha($config = array()) {
 	
 	// Check for GD library
-	//if( !function_exists('gd_info') ) {
+	if( !function_exists('gd_info') ) {
 		throw new Exception('Required GD library is missing');
-	//}
-	
+	}
+	die('helper');
 	$bg_path = dirname(__FILE__) . '/backgrounds/';
 	$font_path = dirname(__FILE__) . '/fonts/';
 	
