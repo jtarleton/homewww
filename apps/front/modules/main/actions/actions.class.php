@@ -37,13 +37,14 @@ class mainActions extends sfActions
     //$this->setLayout('layout-2col-left');
   }
 
-  public function executeContact(){
+  public function executeContact(sfWebRequest $request){
 
     $this->form = new JtContactForm;
-    if(!empty($_POST))
+    if($request->isMethod('post'))
     {
-      $this->form->bind($_POST);
-      
+      $this->form->bind( $request->getParameter('email') );
+       $this->form->bind( $request->getParameter('msg') );
+     
       if($this->form->isValid())
       {
         var_dump($this->form->getValues());    
