@@ -1,6 +1,6 @@
 <style type="text/css">
 textarea#msg {
-	width:683; height:100px;
+	width:683px; height:100px;
 }
 </style>
 <h1>Contact Me</h1>
