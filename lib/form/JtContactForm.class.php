@@ -7,13 +7,11 @@ class JtContactForm extends BaseForm
     $this->setWidgets(array(
       'email' => new sfWidgetFormInput(),
         'msg' => new sfWidgetFormTextarea(),
-        'captcha' => new sfWidgetCaptchaGD()
     ));
     
     $this->setValidators(array(
       'email' => new sfValidatorEmail(array('required'=>true)),
        'msg' => new sfValidatorString(array('max_length' => 255, 'required' => true)),
-       'captcha' =>  new sfCaptchaGDValidator(array('length' => 4)),
     ));
     
     $this->widgetSchema->setLabels(array(
