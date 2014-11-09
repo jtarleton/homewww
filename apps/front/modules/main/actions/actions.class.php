@@ -74,7 +74,7 @@ class mainActions extends sfActions
         // Send
         $ok = mail('jamestarleton@icloud.com', 'Contact Form Submission', $message, $headers);
 
-        die(var_dump($ok));
+        echo ($ok) ? '<p class="success">Your message has been sent.</p>' : '<p class="error">There was a problem sending your message.</p>';
       }
     }
 

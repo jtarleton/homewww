@@ -28,7 +28,13 @@ textarea#msg {
 .button1:hover {
     background: #a33f3a;
 }
-
+.success {
+	font-weight:bold;
+color:green;
+}
+.error { font-weight:bold;
+	color:red;
+}
 </style>
 <h1>Contact Me</h1>
 <form action="http://www.jamestarleton.com/contact" method="post">
