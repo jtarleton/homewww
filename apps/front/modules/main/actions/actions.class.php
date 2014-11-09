@@ -31,7 +31,7 @@ class mainActions extends sfActions
     //die('here');
     $helpers = array('Captcha');
     sfLoader::loadHelpers($helpers);
-    $c = doCaptcha();
+    //$c = doCaptcha();
     exit('done');
   }
 
