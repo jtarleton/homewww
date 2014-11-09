@@ -5,8 +5,8 @@ textarea#msg {
 
 .button1 {
  
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 24px;
+
+    font-size: 12px;
     color: #FFF;
     padding: 5px 10px 5px 10px;
     border: solid 1px #CCC;
@@ -36,7 +36,7 @@ textarea#msg {
     <?php echo $form; ?>
     <tr>
       <td colspan="2">
-        <input value="Send" type="submit" class="button1">
+        <input value="Submit" type="submit" class="button1">
       </td>
     </tr>
   </tbody></table>
