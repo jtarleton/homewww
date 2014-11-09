@@ -47,15 +47,21 @@ class mainActions extends sfActions
      
       if($this->form->isValid())
       {
-        foreach($this->form->getValues() as $k=>$v) {
-
-        }    
+        
 
         // The message
-$message = 'Email: '.$this->form['email']->getValue() ."\r\n"
-. 'Date sent: '. date('Y-m-d H:i:s')."\r\n".
-.' IP: '.$_SERVER['REMOTE_ADDR']."\r\n".
-."\r\n".'Msg: ' $this->form['msg']->getValue();
+$message = 'Email: '
+.$this->form['email']->getValue() 
+."\r\n"
+. 'Date sent: '
+. date('Y-m-d H:i:s')
+."\r\n"
+.' IP: '
+.$_SERVER['REMOTE_ADDR']
+."\r\n"
+."\r\n"
+.'Msg: '
+. $this->form['msg']->getValue();
 
 // In case any of our lines are larger than 70 characters, we should use wordwrap()
 $message = wordwrap($message, 70, "\r\n");
