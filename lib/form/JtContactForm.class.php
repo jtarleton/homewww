@@ -1,19 +1,22 @@
 <?php 
 
-class JtContactForm extends sfForm
+class JtContactForm extends BaseForm
 {
   public function configure() 
   {
     $this->setWidgets(array(
-      'example_text' => new sfWidgetFormInput()
+      'email' => new sfWidgetFormInput(),
+        'msg' => new sfWidgetFormTextarea()
     ));
     
     $this->setValidators(array(
-      'example_text' => new sfValidatorString(array('max_length' => 255, 'required' => true))
+      'email' => new sfValidatorString(array('max_length' => 255, 'required' => true)),
+       'msg' => new sfValidatorString(array('max_length' => 255, 'required' => true))
     ));
     
     $this->widgetSchema->setLabels(array(
-      'example_text' => 'Example Text'
+      'email' => 'Your Email',
+      'msg' => 'Your Message'
     ));
 
     // I had to specify this, there wasn't any formatting by default.
