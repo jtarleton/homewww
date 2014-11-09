@@ -2,7 +2,7 @@
 Races
 </h1>
 
-<table id="example" class="display" width="100%" cellspacing="0">
+<table id="example" class="display" width="100%" cellspacing="20">
         <thead>
             <tr>
                 <th>Date</th>

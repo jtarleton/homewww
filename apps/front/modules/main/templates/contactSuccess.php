@@ -1,11 +1,10 @@
 <h1>Contact Me</h1>
 <form action="http://www.jamestarleton.com/contact" method="post">
-  <table>
+  <table  width="100%" cellspacing="20"><tbody>
     <?php echo $form; ?>
-    <tbody><tr>
-      <td> </td>
-      <td>
-        <input value="Submit" type="submit">
+    <tr>
+      <td colspan="2">
+        <input value="Send" type="submit" style="border:1px solid #000;">
       </td>
     </tr>
   </tbody></table>
