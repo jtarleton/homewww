@@ -27,6 +27,12 @@ class mainActions extends sfActions
     //$this->setLayout('layout-2col-left');
   }
 
+  public function executeCaptcha(){
+    $helpers = array('Captcha');
+    sfLoader::loadHelpers($helpers);
+    doCaptcha();
+  }
+
   public function executeProjects(){
 
     //$this->setLayout('layout-2col-left');
