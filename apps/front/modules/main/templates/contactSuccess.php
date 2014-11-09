@@ -37,7 +37,7 @@ color:green;
 }
 </style>
 <?php if(isset($feedback)): ?>
-<?php echo $feedback; ?>
+<?php echo htmlspecialchars_decode($feedback); ?>
 <?php else: ?>
 <h1>Contact Me</h1>
 <form action="http://www.jamestarleton.com/contact" method="post">
