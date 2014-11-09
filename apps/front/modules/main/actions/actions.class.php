@@ -50,26 +50,26 @@ class mainActions extends sfActions
         
 
         // The message
-$message = 'Email: '
-.$this->form['email']->getValue() 
-."\r\n"
-. 'Date sent: '
-. date('Y-m-d H:i:s')
-."\r\n"
-.' IP: '
-.$_SERVER['REMOTE_ADDR']
-."\r\n"
-."\r\n"
-.'Msg: '
-. $this->form['msg']->getValue();
+        $message = 'Email: '
+        .$this->form['email']->getValue() 
+        ."\r\n"
+        . 'Date sent: '
+        . date('Y-m-d H:i:s')
+        ."\r\n"
+        .' IP: '
+        .$_SERVER['REMOTE_ADDR']
+        ."\r\n"
+        ."\r\n"
+        .'Msg: '
+        . $this->form['msg']->getValue();
 
-// In case any of our lines are larger than 70 characters, we should use wordwrap()
-$message = wordwrap($message, 70, "\r\n");
-die(var_dump($message));
-// Send
-//$ok = mail('jamestarleton@icloud.com', 'Contact Form Submission', $message);
+        // In case any of our lines are larger than 70 characters, we should use wordwrap()
+        $message = wordwrap($message, 70, "\r\n");
 
+        // Send
+        $ok = mail('jamestarleton@icloud.com', 'Contact Form Submission', $message);
 
+        die(var_dump($ok));
       }
     }
 
