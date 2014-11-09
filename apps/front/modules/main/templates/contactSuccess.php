@@ -35,7 +35,7 @@ textarea#msg {
   <table  width="100%" cellspacing="20"><tbody>
     <?php echo $form; ?>
     <tr>
-      <td colspan="2">
+      <td colspan="2" style="text-align:center;">
         <input value="Submit" type="submit" class="button1">
       </td>
     </tr>
