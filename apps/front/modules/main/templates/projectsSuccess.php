@@ -8,6 +8,6 @@ TinyMVC is a web application demonstrating the <?php echo link_to('MVC architect
 
 <b>
 Scooby 1.0</b>
-<p>Scooby is a simple blog application built on <?php echo link_to('MongoDB', 'http://www.mongodb.org'); ?>.</p>
+<p><a href="scooby">Scooby</a> is a simple blog application built on <?php echo link_to('MongoDB', 'http://www.mongodb.org'); ?>.</p>
 
 

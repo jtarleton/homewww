@@ -35,6 +35,9 @@ contact:
   url: /contact
   param: { module: main, action:contact }
 
+scooby:
+  url: /scooby
+  param: { module: main, action:scooby }
 
 # generic rules
 # please, remove them by adding more specific rules

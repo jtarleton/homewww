@@ -40,6 +40,11 @@ class mainActions extends sfActions
     //$this->setLayout('layout-2col-left');
   }
 
+  public function executeScooby(){
+
+    //$this->setLayout('layout-2col-left');
+  }
+
   public function executeRaces(){
 
     //$this->setLayout('layout-2col-left');
