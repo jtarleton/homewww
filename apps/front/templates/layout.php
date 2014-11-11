@@ -31,16 +31,16 @@ $(document).ready(function() {
 <div id="wrapper960" class="clearfix">
 	<div id="toplinks">
 		<ul class="toplinks_links">
-			<li><a href="top1">Top link #1</a></li>
-			<li><a href="top2">Top link #2</a></li>
-			<li><a href="top3">Top link #3</a></li>
-			<li><a href="top4">Top link #4</a></li>
+			<li><a href="top1">PHP Books</a></li>
+			<li><a href="top2">Tutorials</a></li>
+			<!-- <li><a href="top3">Top link #3</a></li>
+			<li><a href="top4">Top link #4</a></li> -->
 		</ul>
 	</div>
 
 	<div id="header" class="clearfix shadow">
 		<div id="sitetitle" class="clearfix">
-			<h1><a href="/">James's Home Page</a></h1>
+			<h1><a href="/">James Tarleton's Homepage</a></h1>
 		</div>
 
 		<div id="nav" class="clearfix">
@@ -48,7 +48,7 @@ $(document).ready(function() {
 				<li><a class="current" href="/">Home</a></li>
 				<li><a href="about">About</a></li>
 				<li><a href="projects">Projects</a></li>
-				<li><a href="races">Races</a></li>
+				<!-- <li><a href="races">Races</a></li> -->
 				<li><a href="contact">Contact</a></li>
 			</ul>
 		</div>
