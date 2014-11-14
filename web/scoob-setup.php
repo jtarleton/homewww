@@ -53,13 +53,14 @@ echo '</td><td class="ok">OK</td></tr><tr>
 <td>';
 
 $mc = MongoClient::getConnections(); 
-
-echo implode(' ',$mc[0]['server']);
+if(is_array($mc))
+echo implode(' ', $mc[0]['server']);
 
 echo shell_exec('ps -ef | grep mongo '); 
 
 echo '</td>
 <td class="">'; 
+
 
 echo (!empty($mc)) ?  'OK'. $mc[0]['server'] : 'No'; 
 
