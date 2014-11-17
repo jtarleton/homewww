@@ -31,8 +31,8 @@ $(document).ready(function() {
 <div id="wrapper960" class="clearfix">
 	<div id="toplinks">
 		<ul class="toplinks_links">
-			<li><a href="top1">PHP Books</a></li>
-			<li><a href="top2">Tutorials</a></li>
+			<li><a href="phpbooks">PHP Books</a></li>
+			<li><a href="tutorials">Tutorials</a></li>
 			<!-- <li><a href="top3">Top link #3</a></li>
 			<li><a href="top4">Top link #4</a></li> -->
 		</ul>
