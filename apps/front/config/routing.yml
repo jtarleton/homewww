@@ -21,7 +21,9 @@ homepage2:
 phpbooks:
   url: /phpbooks
   param: { module: main, action:phpbooks }
-
+tutorials:
+  url: /tutorials
+  param: { module: main, action:tutorials }
 projects:
   url: /projects
   param: { module: main, action:projects }
