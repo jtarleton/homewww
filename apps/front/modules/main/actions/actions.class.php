@@ -21,7 +21,10 @@ class mainActions extends sfActions
   }
   public function execute2colsleft(sfWebRequest $request){
   }
+public function executePhpbooks(){
 
+    //$this->setLayout('layout-2col-left');
+  }
   public function executeAbout(){
 
     //$this->setLayout('layout-2col-left');
