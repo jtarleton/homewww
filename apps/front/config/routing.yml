@@ -18,6 +18,9 @@ homepage2:
 2colleft:
   url: /2-col-left
   param: { module: main, action:2colsleft }
+phpbooks:
+  url: /phpbooks
+  param: { module: main, action:phpbooks }
 
 projects:
   url: /projects
