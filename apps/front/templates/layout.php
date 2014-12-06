@@ -21,8 +21,9 @@ $(document).ready(function() {
 	<meta name="keywords" content="your,keywords,goes,here" />
 	<meta name="author" content="Your Name" />
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" type="text/css" media="all" href="css/inland-wood.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="css/bootflat/css/bootflat.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/inland-wood.css" />
+	
 	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script> -->
 	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 	<title>James's Home Page</title>
