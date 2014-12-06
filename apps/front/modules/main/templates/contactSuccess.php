@@ -45,7 +45,7 @@ color:green;
     <?php echo $form; ?>
     <tr>
       <td colspan="2" style="text-align:center;">
-       <button type="button" class="btn btn-primary btn-block">Submit</button>
+       <button type="submit" class="btn btn-primary btn-block">Submit</button>
       </td>
     </tr>
   </tbody></table>
