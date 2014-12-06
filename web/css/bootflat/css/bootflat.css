@@ -18,13 +18,13 @@
 /**
  * typography
  * --------------------------------------------------
- */
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #434a54;
   background-color: white;
 }
-
+ */
 a {
   color: #3bafda;
   text-decoration: none;
@@ -36,7 +36,7 @@ a:hover, a:focus {
 a:focus {
   outline: none;
 }
-
+/*
 h1,
 h2,
 h3,
@@ -117,7 +117,7 @@ h6,
 .h6 {
   font-size: 14px;
 }
-
+*/
 blockquote {
   border-left: 3px solid #ccd1d9;
 }
