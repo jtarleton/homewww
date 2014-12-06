@@ -25,6 +25,14 @@ body {
   background-color: white;
 }
  */
+
+
+ *{border:0;font:inherit;font-size:100%;margin:0;padding:0;vertical-align:baseline;}
+
+/* HTML elements */
+body{background:#101010 url(../images/bodybg.jpg) top left;color:#444;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:13px;line-height:1.6em;}
+
+
 a {
   color: #3bafda;
   text-decoration: none;
