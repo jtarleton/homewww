@@ -10,6 +10,14 @@
  */
 class mainActions extends sfActions
 {
+
+  public function executeCaptcha(){
+
+    $_SESSION['security_number']=rand(10000,99999);
+JtCaptcha::get('texture.jpg', $_SESSION['security_number'])->send(); exit(0);
+
+    return sfView::NONE;
+  }
  /**
   * Executes index action
   *
