@@ -33,8 +33,8 @@ $(document).ready(function() {
 <div id="wrapper960" class="clearfix">
 	<div id="toplinks">
 		<ul class="toplinks_links">
-			<li><a href="phpbooks">PHP Books</a></li>
-			<li><a href="tutorials">Tutorials</a></li>
+			<li><a href="http://www.jamestarleton.com/phpbooks">PHP Books</a></li>
+			<li><a href="http://www.jamestarleton.com/tutorials">Tutorials</a></li>
 			<!-- <li><a href="top3">Top link #3</a></li>
 			<li><a href="top4">Top link #4</a></li> -->
 		</ul>
@@ -47,11 +47,11 @@ $(document).ready(function() {
 
 		<div id="nav" class="clearfix">
 			<ul>
-				<li><a class="current" href="/">Home</a></li>
-				<li><a href="about">About</a></li>
-				<li><a href="projects">Projects</a></li>
+				<li><a class="current" href="http://www.jamestarleton.com/">Home</a></li>
+				<li><a href="http://www.jamestarleton.com/about">About</a></li>
+				<li><a href="http://www.jamestarleton.com/projects">Projects</a></li>
 				<!-- <li><a href="races">Races</a></li> -->
-				<li><a href="contact">Contact</a></li>
+				<li><a href="http://www.jamestarleton.com/contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>
