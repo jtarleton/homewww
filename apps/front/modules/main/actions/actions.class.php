@@ -15,7 +15,7 @@ class mainActions extends sfActions
 
     //$_SESSION['security_number']=rand(10000,99999);
 
-JtCaptcha::get('texture.jpg', $_SESSION['security_number'])->send(); 
+JtCaptcha::get('/var/homewwww/images/texture.jpg', $_SESSION['security_number'])->send(); 
 die('HERE');
 exit(0);
 
