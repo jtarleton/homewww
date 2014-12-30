@@ -40,6 +40,11 @@ exit(0);
 
     //$this->setLayout('layout-2col-left');
   }
+
+  public function executeParse(){
+
+    //$this->setLayout('layout-2col-left');
+  }
 public function executePhpbooks(){
 
     //$this->setLayout('layout-2col-left');
