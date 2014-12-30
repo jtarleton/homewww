@@ -30,7 +30,7 @@ body {
  *{border:0;font:inherit;font-size:100%;margin:0;padding:0;vertical-align:baseline;}
 
 /* HTML elements */
-body{background:#101010 url(../images/bodybg.jpg) top left;color:#444;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:13px;line-height:1.6em;}
+body{background:#101010 url(http://www.jamestarleton.com/images/bodybg.jpg) top left;color:#444;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:13px;line-height:1.6em;}
 
 
 a {
@@ -1103,7 +1103,7 @@ border-radius: 4px;
   margin: 0;
   vertical-align: middle;
   cursor: pointer;
-  background: url("../bootflat/img/check_flat/default.png") no-repeat;
+  background: url("http://www.jamestarleton.com/bootflat/img/check_flat/default.png") no-repeat;
   border: none;
 
   *display: inline;

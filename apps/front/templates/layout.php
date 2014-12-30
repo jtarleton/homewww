@@ -25,7 +25,7 @@ $(document).ready(function() {
 	<link rel="stylesheet" type="text/css" media="all" href="http://www.jamestarleton.com/css/inland-wood.css" />
 	
 	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script> -->
-	<script type="text/javascript" src="http://www.jamestarleton.com/css/js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript" src="http://www.jamestarleton.com/js/jquery.nivo.slider.js"></script>
 	<title>James's Home Page</title>
 </head>
 
