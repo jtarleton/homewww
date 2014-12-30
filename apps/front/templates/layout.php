@@ -4,7 +4,7 @@
 	<?php include_http_metas() ?>
     	<?php include_metas() ?>
     	<?php include_title() ?>
-    	<link rel="shortcut icon" href="/favicon.ico" />
+    	<link rel="shortcut icon" href="http://www.jamestarleton.com/favicon.ico" />
     	<?php include_stylesheets() ?>
     	<?php include_javascripts() ?><script type="text/javascript" src="http://www.jamestarleton.com/js/jquery-1.7.1.min.js"></script> 
 <link rel="stylesheet" href="http://cdn.datatables.net/1.10.3/css/jquery.dataTables.css">
@@ -25,7 +25,7 @@ $(document).ready(function() {
 	<link rel="stylesheet" type="text/css" media="all" href="http://www.jamestarleton.com/css/inland-wood.css" />
 	
 	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script> -->
-	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript" src="http://www.jamestarleton.com/css/js/jquery.nivo.slider.js"></script>
 	<title>James's Home Page</title>
 </head>
 
@@ -58,11 +58,11 @@ $(document).ready(function() {
 
 	<div class="slider-wrapper">
 		<div id="slider" class="nivoSlider">
-			<img src="images/slider3.jpg" alt="" />
-			<img src="images/slider1.jpg" alt="" />
-			<img src="images/slider2.jpg" alt="" />
-			<img src="images/slider0.jpg" alt="" />
-			<img src="images/slider4.jpg" alt="" />
+			<img src="http://www.jamestarleton.com/images/slider3.jpg" alt="" />
+			<img src="http://www.jamestarleton.com/images/slider1.jpg" alt="" />
+			<img src="http://www.jamestarleton.com/images/slider2.jpg" alt="" />
+			<img src="http://www.jamestarleton.com/images/slider0.jpg" alt="" />
+			<img src="http://www.jamestarleton.com/images/slider4.jpg" alt="" />
 		</div>
 	</div>
 
