@@ -20,8 +20,15 @@ class JtCaptcha {
 		//we create out image from the existing jpg image.
 		//You can replace that image with another of the 
 		//same size.
+
+		try{
 		$this->img=imagecreatefromjpeg($fpath);	
-	
+		} catch(Exception $e){
+		echo $e->getMessage();
+		}	
+
+	die(var_dump($this->img));
+
 		//defines the text we use in our image,
 		//in our case the security number defined
 		//in usage.php

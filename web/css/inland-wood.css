@@ -26,7 +26,7 @@ b,strong {font-weight:700;}
 #wrapper760{margin:20px auto;width:760px;}
 #wrapper600{margin:0 auto;width:600px;}
 #wrapperfluid{margin:0 auto;max-width:1260px;}
-#wrapper1240,#wrapper960,#wrapper760,#wrapper600,#wrapperfluid{background:#fff url(../images/contentbg.jpg) top left;box-shadow:#000 0 0 32px;}
+#wrapper1240,#wrapper960,#wrapper760,#wrapper600,#wrapperfluid{background:#fff url(http://www.jamestarleton.com/images/contentbg.jpg) top left;box-shadow:#000 0 0 32px;}
 
 /* Layout IDs */
 #header{position:relative;}
@@ -49,7 +49,8 @@ b,strong {font-weight:700;}
 
 /* Wood background */
 #toplinks, #content, #footer{background:none;background-color:#1a1a1a;}
-
+ul li { margin-left:25px; }
+ol li { margin-left:25px; }
 /* Main navigation menu */
 #nav{float:right;font-family:'Droid Sans',Verdana,Tahoma,sans-serif;text-align:center;}
 #nav ul{list-style:none;margin:30px 30px 26px 20px;}

@@ -13,10 +13,13 @@ class mainActions extends sfActions
 
   public function executeCaptcha(){
 
-    $_SESSION['security_number']=rand(10000,99999);
-JtCaptcha::get('texture.jpg', $_SESSION['security_number'])->send(); exit(0);
+    //$_SESSION['security_number']=rand(10000,99999);
 
-    return sfView::NONE;
+JtCaptcha::get('texture.jpg', $_SESSION['security_number'])->send(); 
+die('HERE');
+exit(0);
+
+    //return sfView::NONE;
   }
  /**
   * Executes index action
@@ -42,6 +45,7 @@ public function executePhpbooks(){
     //$this->setLayout('layout-2col-left');
   }
 
+/* 
   public function executeCaptcha(){ 
     //die('here');
     $helpers = array('Captcha');
@@ -49,7 +53,7 @@ public function executePhpbooks(){
     $c = doCaptcha();
     exit('done');
   }
-
+*/
   public function executeProjects(){
 
     //$this->setLayout('layout-2col-left');

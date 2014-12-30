@@ -14,7 +14,9 @@ homepage:
 homepage2:
   url: /index
   param: { module: main, action:index }
-
+captcha:
+  url: /captcha
+  param: { module: main, action:captcha }
 2colleft:
   url: /2-col-left
   param: { module: main, action:2colsleft }
@@ -27,7 +29,12 @@ tutorials:
 projects:
   url: /projects
   param: { module: main, action:projects }
-
+tutorial1:
+  url: /tutorials/xmlparsing
+  param: { module: main, action:tutorial1 }
+tutorial2parse:
+  url: /tutorials/xmlparsing/parse
+  param: { module: main, action:parse }
 about:
   url: /about
   param: { module: main, action:about }

@@ -27,6 +27,11 @@ all:
     # Form security secret (CSRF protection)
     csrf_secret:            accfb076a96733dd9ac8df1d43e8d22c6ed2a5b6
 
+    enabled_modules:      [default]
+    standard_helpers:     [Partial, Cache, I18N]
+    i18n:                 true
+
+
     # Output escaping settings
     escaping_strategy:      true
     escaping_method:        ESC_SPECIALCHARS
