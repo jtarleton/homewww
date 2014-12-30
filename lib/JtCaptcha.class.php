@@ -59,7 +59,7 @@ class JtCaptcha {
 			rand(10,30),
 			rand(25,35),
 			$this->text_color,
-			"/var/homewww/images/fonts/courbd.ttf",
+			"http://www.jamestarleton.com/images/fonts/courbd.ttf",
 			$this->security_number
 		);
 	}
