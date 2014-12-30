@@ -27,8 +27,7 @@ class JtCaptcha {
 		echo $e->getMessage();
 		}	
 
-	die(var_dump($this->img));
-
+	
 		//defines the text we use in our image,
 		//in our case the security number defined
 		//in usage.php
