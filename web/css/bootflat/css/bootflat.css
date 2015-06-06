@@ -3,7 +3,7 @@
  *
  * Description: BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.2.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
  *
- * Homepage: http://bootflat.github.com/
+ * Homepage: https://bootflat.github.com/
  *
  * By @Flathemes <info@flathemes.com>
  *
@@ -30,7 +30,7 @@ body {
  *{border:0;font:inherit;font-size:100%;margin:0;padding:0;vertical-align:baseline;}
 
 /* HTML elements */
-body{background:#101010 url(http://www.jamestarleton.com/images/bodybg.jpg) top left;color:#444;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:13px;line-height:1.6em;}
+body{background:#101010 url(https://www.jamestarleton.com/images/bodybg.jpg) top left;color:#444;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:13px;line-height:1.6em;}
 
 
 a {
@@ -126,8 +126,18 @@ h6,
   font-size: 14px;
 }
 */
+
 blockquote {
-  border-left: 3px solid #ccd1d9;
+  margin:3px 10px 3px 0px;
+  border-left: 3px solid #CCCCCC;
+  padding: 10px 15px 10px 15px;
+ background-color: #F5F5F5;
+/* border:1px solid #CCC;
+*/
+color: #215E21;
+font-family:"Courier New", Courier, monospace;
+margin-bottom:15px;
+white-space:pre;
 }
 
 .img-rounded {
@@ -1103,7 +1113,7 @@ border-radius: 4px;
   margin: 0;
   vertical-align: middle;
   cursor: pointer;
-  background: url("http://www.jamestarleton.com/bootflat/img/check_flat/default.png") no-repeat;
+  background: url("https://www.jamestarleton.com/bootflat/img/check_flat/default.png") no-repeat;
   border: none;
 
   *display: inline;
