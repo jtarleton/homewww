@@ -15,7 +15,7 @@
 	 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 class JtCaptcha {
-	private $img, $security_number, $red, $green, $blue, $text_color, $text;
+	public $img, $security_number, $red, $green, $blue, $text_color, $text;
 	public function __construct($fpath, $secnum){
 		//we create out image from the existing jpg image.
 		//You can replace that image with another of the 
@@ -24,8 +24,10 @@ class JtCaptcha {
 		try{
 		$this->img=imagecreatefromjpeg($fpath);	
 		} catch(Exception $e){
-		echo $e->getMessage();
+		
+die(var_dump( $e->getMessage()));
 		}	
+
 
 	
 		//defines the text we use in our image,
@@ -34,7 +36,7 @@ class JtCaptcha {
 		$this->security_number = empty($secnum) 
 			? 'error' 
 			: $secnum;
-	
+
 		//we define 3 random numbers that will
 		//eventually create our text color code (RGB)
 		$this->red=rand(100,255); 
@@ -58,9 +60,13 @@ class JtCaptcha {
 			rand(10,30),
 			rand(25,35),
 			$this->text_color,
-			"http://www.jamestarleton.com/images/fonts/courbd.ttf",
+			"/var/homewww/web/images/fonts/monof55.ttf",
 			$this->security_number
 		);
+
+
+		
+
 	}
 	public static function get($fpath, $secnum){
 		return new self($fpath, $secnum);
@@ -73,6 +79,7 @@ class JtCaptcha {
 		header("Content-type:image/jpeg");
 		header("Content-Disposition:inline ; filename=secure.jpg");	
 		imagejpeg($this->img);
+
 		// and this is all.
 	}
 }
